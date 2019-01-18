@@ -132,3 +132,15 @@ margin: 0;
   padding: 1.2rem 1rem;
 }
 }
+
+/* small screens - landscape */
+@media(max-height: 500px) {
+  
+  .content .text {
+    display: none;
+  }
+
+  .content {
+    top: 0;
+  }
+}
